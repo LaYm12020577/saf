@@ -11,11 +11,11 @@ def index():
 def products():
     return render_template('html/products.html')
 
-@app.route("html/product-details.html")
+@app.route("/product-details.html")
 def details():
     # Get the id query param from the request
     product_id = request.args.get('id')
-    return render_template('product-details.html', product_id=product_id)
+    return render_template('html/product-details.html', product_id=product_id)
 
 if __name__ == '__main__':
     app.run(debug=True)
