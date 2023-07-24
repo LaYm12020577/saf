@@ -1,14 +1,15 @@
 from flask import Flask, render_template, request
+import os
 
 app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template('../html/index.html')
+    return render_template('html/index.html')
 
 @app.route("/products")
 def products():
-    return render_template('products.html')
+    return render_template('html/products.html')
 
 @app.route("/product-details.html")
 def details():
