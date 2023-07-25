@@ -363,6 +363,7 @@ header.sticky {
   border-radius: 3px;
 }
 
+
 header.sticky .nav__main .nav__links a {
   color: #333;
 }
@@ -1242,3 +1243,114 @@ header.sticky .nav__main .nav__links a:hover{
 .fa-envelope-open-o:before {
   content: "\f2b7"
 } */
+
+/*=============================
+	Start Contact Copy CSS
+===============================*/
+.contact-copy {
+	position: relative;
+	z-index: 43;
+}
+.contact-copy .title{
+	margin-bottom: 30px;
+}
+.contact-copy .title h4 {
+	font-size: 17px;
+	font-weight: 500;
+	margin-bottom: 5px;
+	color: var(--blue);
+}
+.contact-copy .title h3 {
+	font-size: 25px;
+	text-transform: capitalize;
+	font-weight: 600;
+}
+.contact-copy .single-head {
+	padding: 50px;
+	box-shadow: 0px 0px 15px #0000001a;
+	height: 100%;
+}
+.contact-copy .single-info {
+	text-align: left;
+	margin-bottom:30px;
+}
+.contact-copy .single-info i {
+	color: #fff;
+	font-size: 18px;
+	display: inline-block;
+	margin-bottom: 15px;
+	height: 40px;
+	width: 40px;
+	display: block;
+	text-align: center;
+	border-radius: 3px;
+	line-height: 40px;
+	background:var(--blue);
+}
+.contact-copy .single-info ul
+.contact-copy .single-info ul li{
+	margin-bottom:5px;
+}
+.contact-copy .single-info ul li:last-child{
+	margin-bottom:0;
+}
+.contact-copy .single-info ul li a{
+	font-weight:400;
+}
+.contact-copy .single-info ul li a:hover{
+	color:var(--blue);
+}
+.contact-copy .single-info .title {
+	margin-bottom: 10px;
+	font-weight: 500;
+	color: #333;
+	font-size: 18px;
+}
+.contact-copy .form-main {
+
+	box-shadow: 0px 0px 15px #0000001a;
+	padding: 100px;
+}
+.contact-copy .form .form-group input {
+	height: 48px;
+	line-height: 48px;
+	width: 100%;
+	border: 1px solid #e6e2f5;
+	padding: 0px 20px;
+	color: #333;
+	border-radius: 0px;
+	font-weight: 400;
+}
+.contact-copy .form .form-group textarea {
+	height: 180px;
+	width: 100%;
+	border: 1px solid #e6e2f5;
+	padding: 15px 20px;
+	color: #333;
+	border-radius: 0px;
+	resize: none;
+	font-weight:400;
+}
+.contact-copy .form .form-group label {
+	color: #333;
+	position: relative;
+}
+.contact-copy .form .form-group label span {
+	color: #ff2c18;
+	display: inline-block;
+	position: absolute;
+	right: -12px;
+	top: 4px;
+	font-size: 16px;
+}
+.contact-copy .form .button {
+	margin:0;
+}
+.contact-copy .form .button .btn {
+	height: 50px;
+	border: none;
+}
+
+/*=============================
+	END Contact Copy CSS
+===============================*/

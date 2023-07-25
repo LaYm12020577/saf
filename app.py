@@ -19,7 +19,11 @@ def details():
 
 @app.route("/contact")
 def contacts():
-    return render_template('html/contact.html')
+    return render_template('html/contact copy.html')
+
+@app.route('/cart')
+def cart():
+    return render_template('html/cart.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
