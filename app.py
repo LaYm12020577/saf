@@ -17,8 +17,10 @@ def details():
     product_id = request.args.get('id')
     return render_template('html/product-details.html', product_id=product_id)
 
-@app.route("/contact.html")
+@app.route("/contact.html", methods=['GET', 'POST'])
 def contacts():
+    if request.method == 'POST':
+        return 'Thank you!'
     return render_template('html/contact.html')
 
 @app.route('/cart.html')
